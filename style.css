@@ -1,0 +1,590 @@
+* {
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  border: 0;
+  margin: 0;
+  background-color: #0D0D0D;
+  box-sizing: border-box;
+}
+/*━━━━━━━━━━━━━━━*/
+
+/* Topo da página */
+.topo {
+  background-color: #181818;
+  display: flex;
+  width: 100%;
+  height: 56px;
+}
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+
+
+/* LEFT TOPO */
+.topo-left {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  margin: 24px 16px;
+}
+
+.logo {
+  width: 100.91px;
+  height: 22.381px;
+  margin-left: 12px;
+}
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+
+
+/* MID TOPO */
+.topo-mid {
+  /* background-color: blue; */
+  display: flex;
+  flex: 2;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  width: 714px;
+  height: 38px;
+  border-top-left-radius: 99px;
+  border-bottom-left-radius: 99px;
+  border: 1.599px solid #2A2A2A;
+  background: #0F0F0F;
+  color: white;
+  padding-left: 15px;
+  font-size: 15px;
+  outline: 0;
+  border: 1px solid #2a2a2a;
+}
+
+.lupa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  height: 38px;
+  width: 78px;
+  border-radius: 0px 99px 99px 0px;
+  background: #2A2A2A;
+  border: 0;
+  outline: 0;
+}
+
+.lupa img {
+  width: 24px;    
+  height: 24px;
+}
+
+.voice-input {
+  width: 38px;
+  height: 38px;
+  background-color: #2A2A2A;
+  border: 0;
+  outline: 0;
+  border-radius: 50%;
+  margin-left: 32px;
+  padding: 7px;
+}
+
+.voice-input img {
+  width: 24px;
+  height: 24px;
+}
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+
+
+/* RIGHT TOPO */
+.topo-right {
+  /* background-color: yellow; */
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 34px;
+}
+
+.topo-right img {
+  width: 32px;
+  height: 32px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background-color: #912DF5;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+
+
+/* MENU - NAV */
+.menu {
+  display: flex;
+}
+
+
+nav {
+  background-color: #0F0F0F;
+  width: 88px;
+  height: 309px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.botao-menu {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nome-botao {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+
+
+/* BANNER */
+.banner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: #912DF5;
+}
+
+
+.channel {
+  display: flex;
+  padding: 8px;
+  gap: 8px;
+  width: 164px;
+  height: 33px;
+  background: rgba(255, 255, 255, 0.50);
+  margin: 24px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.channel-avatar {
+  width: 15.654px;
+  height: 16px;
+  background-color: #912DF5;
+  border-radius: 50%;
+}
+
+.channel-text p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14.388px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 53px;
+  height: 17px;
+}
+
+.facebook {
+  width: 16px;
+  height: 16px;
+}
+
+.twitter {
+  width: 16px;
+  height: 16px;
+}
+
+.instagram {
+  width: 16px;
+  height: 16px;
+}
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+
+
+/* CONTAINER */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.meio {
+  width: 1284px;
+  height: 942px;
+  /* background-color: #912DF5; */
+  margin-top: 32px;
+  margin-bottom: 109px;
+}
+
+.infos-canal {
+  display: flex;
+  height: 148px;
+  /* background-color: white; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infos-left {
+  display: flex;
+  align-items: center; /* Centraliza o texto no meio da div */
+  flex-direction: row;
+  /* background-color: red; */
+}
+
+ #avatar-canal {
+  width: 128px;
+  height: 128px;
+  background-color: #912DF5;
+  border-radius: 50%;
+ }
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+
+
+ /* CLASS DO NOME E ICONE */
+ .nome-canal-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+ }
+ 
+ .nome-e-icon {
+    display: flex;
+    flex-direction: row;
+ }
+
+ #nome-canal {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 30.375px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 5px;
+ }
+
+.nome-e-icon img {
+  margin-left: 4px;
+  vertical-align: middle;
+ }
+ /*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+
+ 
+/* NUMERO DE INSCRITOS */
+.number-subscribers {
+  display: flex;
+  color: #888;
+  font-family: Roboto;
+  font-size: 17.585px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: -15px;
+}
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+
+ /* INFOS RIGHT */
+ .infos-right button {
+    width: 121px;
+    height: 43px;
+    border-radius: 65px;
+    border: 0;
+    outline: 0;
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 12px 24px;
+    align-items: center;
+    gap: 8px;
+ }
+
+ button h2 {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+ }
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+
+/* TAB CONTAINER */
+.tab-container {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: #FFFFFF; */
+  margin-top: 32px;
+}
+
+.tab-item {
+  color: #8F8F8F;
+  font-family: Roboto;
+  font-size: 17.585px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 2px solid transparent;
+}
+
+.tab-item img {
+  width: 31.973px;
+  height: 31.973px;
+}
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+
+/* VIDEO DESTAQUE */
+
+.destaque {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 862px;
+  height: 124px;
+  margin-top: 32px;
+  gap: 30px;
+}
+
+.thumbnail-destaque {
+  display: flex;
+  background-color: #912DF5;
+  width: 210px;
+  height: 118px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+
+.title-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.video-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-title h2 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.video-title label {
+  margin-top: -8px;
+  color: #8F8F8F;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.description {
+  align-self: stretch;
+  color: #EFEFEF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.description a {
+  color: #4994FF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  text-decoration: none;
+}
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+
+/* VIDEOS RECENTES DO CANAL */
+.newest {
+  width: 100%;
+  height: 251px;
+  /* background-color: #FFF; */
+  margin-top: 32px;
+}
+
+.title-newest {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.title-newest h2 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20.783px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.title-newest img {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-left: 48px;
+}
+
+.title-newest label {
+  color: #9A9A9A;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 8px;
+  margin-bottom: 0px;
+}
+
+.list-videos {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  margin-top: 24px;
+}
+
+.videos-here {
+  display: flex;
+  flex-direction: column;
+
+  width: 210px;
+  height: 203px;
+}
+
+.thumb-videos-here {
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  height: 118px;
+  border-radius: 8px;
+  background: #912DF5;
+}
+
+.title-videos-here {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-videos-here h2 {
+  margin-top: -3px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 17.585px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.author-video  {
+      margin-top: -15px;
+}
+
+.author-video label {
+  color: #9A9A9A;
+  font-family: Roboto;
+  font-size: 15.987px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 23.98px */
+}
+
+.author-video img {
+  margin-left: 2px;
+  width: 17.585px;
+  height: 17.585px;
+  vertical-align: middle;
+}
+
+.author-video p {
+  color: #9A9A9A;
+  font-family: Roboto;
+  font-size: 15.987px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 23.98px */
+  margin-top: -5px;
+}
+
+/* VIDEOS POPULARES DO CANAL */
+.most-popular {
+  width: 100%;
+  height: 251px;
+  /* background-color: #FFF; */
+  margin-top: 32px;
+}
+
+.title-most-popular {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.title-most-popular h2 {
+color: #FFF;
+font-family: Roboto;
+font-size: 20.783px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.title-most-popular img {
+width: 16px;
+height: 16px;
+vertical-align: middle;
+margin-left: 48px;
+}
+
+.title-most-popular label {
+color: #9A9A9A;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 8px;
+margin-bottom: 0px;
+}
+
+/* LIST DE VIDEOS DO MOST POPULAR JÁ FOI APLICADA GLOBALMENTE LÁ EM CIMA. FIM DO PROJETO. */
