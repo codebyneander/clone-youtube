@@ -25,6 +25,14 @@ Veja uma prévia do resultado final:
 
 ---
 
+
+## 🌐 Acesse o Projeto Publicado
+
+➡️ [Clique aqui para visualizar online](https://codebyneander.github.io/clone-youtube/)
+
+---
+
+
 ## 🛠️ Tecnologias Utilizadas
 
 - HTML5
